@@ -20,11 +20,11 @@ print(data.shape)
 
 # we now create, for each tweet, the set of the words contained in it
 
-parole = data['text']
+words = data['text']
 print(data.shape[0])
 i=0
-for stringa in data['text']:
-    set_of_words = list(stringa.split(' '))
+for new_string in data['text']:
+    set_of_words = list(new_string.split(' '))
     length_list = len(set_of_words) 
     # we eliminate tags, links to external websotes e and those words which are truncated at the end
     for word in set_of_words:
