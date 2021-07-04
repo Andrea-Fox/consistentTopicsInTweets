@@ -1,3 +1,5 @@
+Execution of a project for a Data Mining course 
+
 ## Problem description
 Tweets are short texts (sequence of words) sent at specific times by specific individuals. The collection of terms that a tweet contains is collectively describing a message. Appearance of
 a term in many tweets makes the term popular.  
